@@ -3,10 +3,11 @@ import { NavLink as Link } from 'react-router-dom';
 import { RiRestaurantLine } from 'react-icons/ri';
 
 export const Nav = styled.nav`
-    background: red;
+    background: transparent;
     height: 80px;
     display: flex;
-    justify-content: center;
+    padding: 1rem;
+    justify-content: left;
     font-weight: 700;
 `;
 
@@ -44,4 +45,4 @@ export const NavIcon = styled.div`
 export const Bars = styled(RiRestaurantLine)`
     font-size: 2rem;
     transform: translate(-50%, -15%);
-`
+`;

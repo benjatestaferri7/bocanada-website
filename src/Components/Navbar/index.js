@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bars, Nav, NavIcon, NavLink } from './Navbar'
+import { Bars, Nav, NavIcon, NavLink } from './NavbarElements'
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
                 </NavIcon>
             </Nav>
         </>
-    )
-}
+    );
+};
 
 export default Navbar;
