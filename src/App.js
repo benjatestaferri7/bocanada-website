@@ -1,9 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router } from "react-router-dom";
 import Feature from './Components/Feature';
+import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Products from './Components/Products';
-import { productData } from './Components/Products/data';
+import { productData, productDataTwo } from './Components/Products/data';
 import { GlobalStyle } from './globalStyles';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <Products heading='Nuestra Especialidad' data={productData}/>
       <Feature />
+      <Products heading='Menú' data={productDataTwo}/>
+      <Footer />
     </Router>
   );
 };

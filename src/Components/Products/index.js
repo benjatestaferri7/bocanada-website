@@ -24,9 +24,9 @@ const Products = ({ heading, data }) => {
                             <ProductImg src={product.img} alt={product.alt} />
                             <ProductInfo>
                                 <ProductTitle>{product.name}</ProductTitle>
-                                {/* <ProductDesc>{product.desc}</ProductDesc> */}
-                                {/* <ProductPrice>{product.price}</ProductPrice>
-                                <ProductButton>{product.button}</ProductButton> */}
+                                <ProductDesc>{product.desc}</ProductDesc>
+                                <ProductPrice>{product.price}</ProductPrice>
+                                <ProductButton>{product.button}</ProductButton>
                             </ProductInfo>
                         </ProductCard>
                     )
